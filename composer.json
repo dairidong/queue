@@ -1,0 +1,28 @@
+{
+  "name": "drd/simple-amqp",
+  "description": "amqp simple queue",
+  "keywords": [
+    "amqp",
+    "rabbitmq",
+    "queue"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "戴日东",
+      "email": "550398445@qq.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "enqueue/amqp-lib": "*",
+    "ramsey/uuid": "^4.1",
+    "psr/log": "^1.1",
+    "pimple/pimple": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SimpleAmqp\\": "./src"
+    }
+  }
+}
